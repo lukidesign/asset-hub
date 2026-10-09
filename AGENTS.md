@@ -26,3 +26,11 @@ The 3D experience should stay progressive rather than CAD-dense: keep the workbe
 - Keep top-level headings lean on Upload, Projects/Permissions, and AI/MCP: show the page title and actionable control only; hide duplicated eyebrow and explanatory subtitle copy.
 - The Projects/Permissions prototype must support project search and local project creation, project switching, editable project settings, counted tabs for assets/members/roles, project-scoped asset search and filters, visible asset-ID copy feedback, and complete row action menus. Member roles and role permissions are interactive local states; no production invitation or access change is implied.
 - The AI/MCP prototype should present clients, tool authorization, and call history inside one spaced workspace with counted tabs. Connection state changes need a local confirmation/configuration flow with visible outcome feedback; client settings only change the in-session mock state and must never claim to establish a real MCP connection, store credentials, or alter external permissions.
+
+## Confirmed interaction closure (2026-10-09)
+
+- Every asset must open its own detail identity. Non-3D assets use a type-appropriate metadata/preview detail surface rather than being substituted with the 3D pump.
+- Saved filters restore their full local condition snapshot, and local session interactions survive top-level module navigation. No browser-persistent storage is implied.
+- Import records keep local file/link metadata, display-image selection, applied import rules, and a simulated completion step that registers the asset to both the library and its selected project. This remains an in-memory prototype workflow.
+- Role permissions are isolated by project and role, with least-privilege defaults for viewers. MCP tool authorizations are isolated by client. Neither behavior represents a real external permission change.
+- Show the scope of demo metrics explicitly; log search/result filtering and keyboard-accessible switches/modal dismissal are required interaction basics.
