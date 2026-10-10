@@ -6,6 +6,9 @@ test-artifacts/
 .env.*
 !.env.example
 
+# Local agent workspace (project memory, tool artifacts) - not part of the app.
+.workbuddy/
+
 # Local source files supplied for prototype extraction. The runnable, derived
 # assets belong in public/assets and are versioned with the application.
 /reference/source-materials/*
