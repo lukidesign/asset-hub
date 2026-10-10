@@ -1,0 +1,13 @@
+{
+  "id": "VGR-PRD-001258",
+  "name": "Dashboard 中央主楼 · 程序化场景导出",
+  "source": "本地上传",
+  "sourceFile": "reference/source-materials/Dashboard.html",
+  "sourceType": "Three.js 程序化场景",
+  "model": "dashboard-main-building.glb",
+  "modelFormat": "GLB",
+  "textureHandling": "贴图已内嵌在 GLB；包含运行时生成的屋顶文字贴图。",
+  "preview": "preview.png",
+  "generatedAt": "2026-10-10T03:28:29.970Z",
+  "sizeBytes": 22631364
+}

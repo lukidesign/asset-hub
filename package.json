@@ -1,13 +1,17 @@
 {
   "name": "vigour-design-asset-hub",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/prepare-sites-build.mjs",
     "preview": "vite preview",
-    "test:sites": "node --test tests/sites-worker.test.mjs"
+    "test:sites": "node --test tests/sites-worker.test.mjs",
+    "export:dashboard-model": "node scripts/export-dashboard-model.mjs"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
@@ -15,5 +19,8 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "vite": "6.4.2"
+  },
+  "devDependencies": {
+    "three": "^0.163.0"
   }
 }
