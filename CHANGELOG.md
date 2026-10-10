@@ -4,6 +4,8 @@
 
 ## [0.1.0] - 2026-10-10
 
+发布记录：[GitHub Release v0.1.0](https://github.com/lukidesign/asset-hub/releases/tag/v0.1.0)。
+
 ### Added
 
 - 首个可评审的 Vigour Asset Hub 原型版本。
